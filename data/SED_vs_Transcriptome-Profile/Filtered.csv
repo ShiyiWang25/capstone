@@ -1,0 +1,65 @@
+Gene Symbol,Gene Name,correlation,pvalue,Means,SD,CV
+ADAMTS12,"ADAM Metallopeptidase With Thrombospondin Type 1 Motif, 12",-0.536,4.36E-04,277.87,278.05,1.00
+POU2F3,POU Class 2 Homeobox 3,-0.533,4.75E-04,133.21,158.64,1.19
+FAIM2,Fas Apoptotic Inhibitory Molecule 2,-0.512,8.71E-04,91.08,149.86,1.65
+RFFL,Ring Finger And FYVE-Like Domain Containing E3 Ubiquitin Protein Ligase ,-0.507,9.86E-04,107.06,107.20,1.00
+C9orf172,Chromosome 9 Open Reading Frame 172,-0.498,1.24E-03,33.73,36.55,1.08
+MMP13,Matrix Metallopeptidase 13,-0.476,2.18E-03,1363.90,2244.65,1.65
+PDE10A,Phosphodiesterase 10A,-0.474,2.28E-03,274.26,378.61,1.38
+GRIN1,"Glutamate Receptor, Ionotropic, N-Methyl D-Aspartate 1",-0.463,3.03E-03,93.51,148.72,1.59
+PPP1R1A,"Protein Phosphatase 1, Regulatory (Inhibitor) Subunit 1A",-0.461,3.12E-03,145.01,237.42,1.64
+WNT7B,"Wingless-Type MMTV Integration Site Family, Member 7B",-0.460,3.23E-03,248.82,280.13,1.13
+FAM171A2,"Family With Sequence Similarity 171, Member A2 ",-0.455,3.59E-03,58.59,88.96,1.52
+S100A7A,S100 calcium binding protein A7A ,-0.451,4.00E-03,369.17,1262.58,3.42
+SCUBE3,"signal peptide, CUB domain, EGF-like 3",-0.446,4.39E-03,517.04,794.36,1.54
+LRRC26,leucine rich repeat containing 26,-0.445,4.55E-03,208.69,479.11,2.30
+LOC100508781,,-0.444,4.60E-03,37.94,45.43,1.20
+NKD1,naked cuticle homolog 1 (Drosophila),-0.443,4.71E-03,90.43,103.83,1.15
+KMO,kynurenine 3-monooxygenase (kynurenine 3-hydroxylase),-0.441,4.91E-03,497.23,653.93,1.32
+PPM1L,"protein phosphatase, Mg2+/Mn2+ dependent, 1L",-0.440,5.12E-03,92.01,118.89,1.29
+GYG2,glycogenin 2,-0.439,5.15E-03,218.81,227.21,1.04
+PRRT4,proline-rich transmembrane protein 4,-0.439,5.16E-03,21.88,41.19,1.88
+MNX1,motor neuron and pancreas homeobox 1 ,-0.439,5.22E-03,44.43,52.79,1.19
+PCDHGB1,"protocadherin gamma subfamily B, 1",-0.433,5.85E-03,67.47,105.60,1.57
+SSH2,slingshot protein phosphatase 2,-0.433,5.92E-03,762.60,766.67,1.01
+NPTX2,neuronal pentraxin II,-0.432,5.99E-03,62.32,98.66,1.58
+S100A7,S100 calcium binding protein A7,-0.432,6.05E-03,1222.79,3132.80,2.56
+LRTM2,leucine-rich repeats and transmembrane domains 2,-0.430,6.27E-03,26.35,77.89,2.96
+STS,"steroid sulfatase (microsomal), isozyme S ",-0.429,6.43E-03,995.71,2133.90,2.14
+LOC728763,,-0.429,6.43E-03,48.41,87.09,1.80
+LRRC4,leucine rich repeat containing 4 ,-0.427,6.65E-03,83.92,122.05,1.45
+GUCY1A2,"guanylate cyclase 1, soluble, alpha 2",-0.424,7.22E-03,540.97,583.50,1.08
+PLCH1,"phospholipase C, eta 1",-0.422,7.38E-03,475.02,522.92,1.10
+SIGLEC15,sialic acid binding Ig-like lectin 15,-0.421,7.66E-03,32.75,46.48,1.42
+ARSH,"arylsulfatase family, member H ",-0.421,7.69E-03,31.82,69.13,2.17
+SYT12,synaptotagmin XII ,-0.420,7.78E-03,835.06,1346.86,1.61
+ERBB2,erb-b2 receptor tyrosine kinase 2 ,-0.419,8.00E-03,37299.57,74157.39,1.99
+KALRN,"kalirin, RhoGEF kinase",-0.418,8.02E-03,435.61,644.51,1.48
+EPGN,epithelial mitogen ,-0.413,9.02E-03,34.51,57.23,1.66
+UNC5A,unc-5 netrin receptor A,-0.412,9.13E-03,137.24,248.01,1.81
+SH2B2,SH2B adaptor protein 2,-0.411,9.43E-03,58.66,60.36,1.03
+LOC101929385,,0.409,9.66E-03,37.76,41.64,1.10
+PTGDS,prostaglandin D2 synthase 21kDa (brain),0.410,9.58E-03,249.54,385.03,1.54
+DOC2A,"double C2-like domains, alpha ",0.410,9.57E-03,105.05,106.28,1.01
+LOC101929724,,0.411,9.31E-03,13.16,17.31,1.32
+FBXO2,F-box protein 2,0.414,8.86E-03,69.33,71.74,1.03
+HSPB6,"heat shock protein, alpha-crystallin-related, B6",0.421,7.54E-03,76.28,92.89,1.22
+KRT14,"keratin 14, type I ",0.430,6.25E-03,1546.92,2735.67,1.77
+FLJ35934,,0.433,5.84E-03,11.96,13.74,1.15
+LOC100506834,,0.435,5.69E-03,32.52,33.07,1.02
+LOC102723354,,0.436,5.49E-03,19.35,22.70,1.17
+MIR143HG,MIR143 host gene,0.439,5.18E-03,28.06,36.70,1.31
+MIR145,microRNA 145 ,0.447,4.29E-03,11.98,21.78,1.82
+ACKR1,atypical chemokine receptor 1 (Duffy blood group),0.450,4.03E-03,165.78,260.50,1.57
+MIR29C,microRNA 29c ,0.461,3.12E-03,47.22,52.91,1.12
+LOC101930481,,0.471,2.48E-03,11.40,19.03,1.67
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,filtering criterion,,,,
+,,pvalue,<0.01,,,
+,,Means,>10,,,
+,,CV,>1,,,

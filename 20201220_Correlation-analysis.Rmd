@@ -1,0 +1,79 @@
+---
+title: "Correlation Analysis between Gene Expression and SED"
+author: "Shiyi Wang"
+date: "12/10/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+#### Subject: 
+Transcriptome data of 41 breast tumors with available three-dimensional tumor diameters
+
+#### Object: 
+To reveal the genes significantly correlated with SED
+
+#### Filter criteria:
+1. p-Value < 0.01
+
+2. means > 10
+
+3. CV > 1
+
+#### Note:
+This is the reproduction of the results in the paper.
+
+```{r}
+library(tidyverse)
+library(readr)
+
+# import data
+data <- read_csv("data/SED_vs_Transcriptome-Profile/Correlation_and_CV.csv") %>%
+  print()
+```
+
+```{r}
+# filter the data using the filter criteria:
+data_filtered <- data %>%
+  filter(pvalue <0.01) %>%
+  filter(Means > 10) %>%
+  filter(CV > 1) %>%
+  print()
+```
+```{r}
+# How many genes significantly correlated with SED?
+# (i.e., How many genes pass the filter?)
+dim(data_filtered)
+```
+
+```{r}
+# sort the data ascendingly by the "correlation" value
+data_sorted <- data_filtered %>%
+  arrange(correlation) %>%
+  print()
+```
+
+```{r}
+# How many genes show significant negative correlation with SED?
+# (i.e., How many genes have a correlation value < 0?)
+data_sorted %>%
+  filter(correlation < 0) %>%
+  nrow() %>%
+  print()
+```
+
+
+```{r}
+# How many genes show significant poistive correlation with SED?
+# (i.e., How many genes have a correlation value > 0?)
+data_sorted %>%
+  filter(correlation > 0) %>%
+  nrow() %>%
+  print()
+```
+
+
+
+
