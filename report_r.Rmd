@@ -11,14 +11,15 @@ output:
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
+### About the data:
 #### Subject: 
-Transcriptome data of 41 breast tumors with available three-dimensional tumor diameters.
+Transcriptome data of 41 breast tumors with available three-dimensional tumor diameters is used in this research.
 
 #### Questions:
-What are the gens significantly correlated with SED of breast cancers?
+What are the genes significantly correlated with SED of breast cancers?
 
 #### Object: 
-To reveal the genes significantly correlated with SED
+The purpose is to reveal the genes significantly correlated with SED using the filter criteria listed below. The genes significantly correlated with SED might play important roles in tumor development and could be the targets of the following research.
 
 #### Filter criteria:
 1. p-Value < 0.01
@@ -28,7 +29,7 @@ To reveal the genes significantly correlated with SED
 3. CV > 1
 
 #### Note:
-This is the reproduction of the results in the paper.
+This is the reproduction of the results in the paper. The data is well-documented and the filter criteria are clear, which helps the reanalysis of data in the future.
 
 ```{r}
 library(tidyverse)
@@ -48,7 +49,7 @@ data_filtered <- data %>%
   print()
 ```
 ```{r}
-# How many genes significantly correlated with SED?
+# How many genes are significantly correlated with SED?
 # (i.e., How many genes pass the filter?)
 dim(data_filtered)
 ```
@@ -63,7 +64,7 @@ write.csv(data_sorted, 'figure/Correlation_Analysis_results.csv')
 ```
 
 ```{r}
-# How many genes show significant negative correlation with SED?
+# How many genes show a significant negative correlation with SED?
 # (i.e., How many genes have a correlation value < 0?)
 data_sorted %>%
   filter(correlation < 0) %>%
@@ -73,7 +74,7 @@ data_sorted %>%
 
 
 ```{r}
-# How many genes show significant poistive correlation with SED?
+# How many genes show a significant positive correlation with SED?
 # (i.e., How many genes have a correlation value > 0?)
 data_sorted %>%
   filter(correlation > 0) %>%
@@ -81,6 +82,14 @@ data_sorted %>%
   print()
 ```
 
+#### Conclusions:
 
+54 genes are found to be significantly correlated with SED. Among them, 39 genes show a significant negative correlation with SED, and 15 genes show a significant positive correlation with SED.
+
+ADAMTS12 is the gene that has the strongest correlation with SED. Its function in tumor development and prognosis should be investigated.
+
+#### Reproducibility:
+Both the original data and analyzed results are well-documented in the original paper. Besides, the filter criteria are clear, which helps the reanalysis of data.
+In this project, the correlation between gene expression and SED is reproduced using R, and the same results are acquired.
 
 
