@@ -1,4 +1,4 @@
-chr	st	BC02T.ref	BC02T.var	BC02T.vaf	BC02T.cn	BC02T.cleancn	BC02T.depth	adequateDepth	cluster	cluster.prob
+qchr	st	BC02T.ref	BC02T.var	BC02T.vaf	BC02T.cn	BC02T.cleancn	BC02T.depth	adequateDepth	cluster	cluster.prob
 chr1	137056	69	3	4.17	1.6922	NA	72	1	NA	NA
 chr1	1575796	17	3	15	1.6922	NA	20	0	NA	NA
 chr1	12907861	109	15	12.1	1.6922	NA	124	1	NA	NA
