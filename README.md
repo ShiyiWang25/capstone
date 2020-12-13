@@ -8,6 +8,11 @@ This project is composed of one README file, two data folder, one markdown (repo
 
 The data folder [doi_10](https://github.com/ShiyiWang25/capstone/tree/main/doi_10) stores the original data downloaded. The folder [data](https://github.com/ShiyiWang25/capstone/tree/main/data) stores the data organized and used in this project, including the SED_vs_Transcriptome-Profile data used in the R markdown file and the clonality_data used in the ipython notebook.
 
+## Questions to solve in this project:
+  1. What are the genes significantly correlated with SED of breast cancers? [(report_r.Rmd)](https://github.com/ShiyiWang25/capstone/blob/main/report_r.Rmd)
+  2. What is the subclonal architecture in each breast tumor? [(report_python.ipynb)](https://github.com/ShiyiWang25/capstone/blob/main/report_python.ipynb)
+  3. How are regions with different copy numbers distributed in each tumor? What are the chromosome characteristics (hypodiploid and hyperdiploid) in breast tumors? [(report_python.ipynb)](https://github.com/ShiyiWang25/capstone/blob/main/report_python.ipynb)
+
 ## Environment information:
 * R version 3.6.2 (2019-12-12)
 * Python 3.8.4
