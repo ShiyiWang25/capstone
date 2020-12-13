@@ -1,7 +1,7 @@
 # MCB 536 capstone project
 
 ## Data Used:
-The datasets used in this project [Clinical, molecular, and spatial data in breast cancer](https://datadryad.org/stash/dataset/doi:10.5061/dryad.828nn)
+The datasets used in this project is [Clinical, molecular, and spatial data in breast cancer](https://datadryad.org/stash/dataset/doi:10.5061/dryad.828nn)
 
 ## Directory structure and files inlcuded
 This project is composed of one README file, two data folder, one markdown (report_r.Rmd), one ipython notebook (report_python.ipynb), one figure folder storing the figures and tables generated. 
