@@ -1,8 +1,10 @@
 ---
-title: "Correlation Analysis between Gene Expression and SED"
+title: "Correlation Analysis between Gene Expression and SED (Question 1)"
 author: "Shiyi Wang"
 date: "12/10/2020"
-output: html_document
+output:
+  pdf_document: default
+  html_document: default
 ---
 
 ```{r setup, include=FALSE}
@@ -10,7 +12,10 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 #### Subject: 
-Transcriptome data of 41 breast tumors with available three-dimensional tumor diameters
+Transcriptome data of 41 breast tumors with available three-dimensional tumor diameters.
+
+#### Questions:
+What are the gens significantly correlated with SED of breast cancers?
 
 #### Object: 
 To reveal the genes significantly correlated with SED
@@ -53,6 +58,8 @@ dim(data_filtered)
 data_sorted <- data_filtered %>%
   arrange(correlation) %>%
   print()
+
+write.csv(data_sorted, 'figure/Correlation_Analysis_results.csv')
 ```
 
 ```{r}
